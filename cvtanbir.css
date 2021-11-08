@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: rgb(224, 244, 247);
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile-picture{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #0f7a7e;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.address{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.address:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.clear-div{
+    clear: both;
+}
+.first-hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/*personal section start*/
+.info2{
+    float: left;
+    color: #014292;
+}
+.infov{
+    float: left;
+}
+.infoc{
+    float: left;
+    color: #7e130f;
+}
+.content{
+    margin: 30px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+.edu1{
+    float: left;
+    width: 45%;
+}
+.edu2{
+    float: right;
+    width: 45%;
+}
+.ref-tel a{
+    float: left;
+    color: #014292;
+    text-decoration: none;
+}
+.ref-tel a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.edu-web a{
+    color: #014292;
+    text-decoration: none;
+}
+.edu-web a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+
+.footer-bgcolor{
+background-color: navy;
+width: 100%;
+height: 60px;
+}
+.footer2, .footer1 a{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.footer2, .footer1{
+    text-align: center;
+}
